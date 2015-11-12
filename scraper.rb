@@ -39,7 +39,7 @@ def click(page, doc)
   end
 end
 
-base_url = "http://203.38.125.77/T1PRWeb/eProperty/P1/eTrack"
+base_url = "https://eservices.wagga.nsw.gov.au/T1PRWeb/eProperty/P1/eTrack"
 url = "#{base_url}/eTrackApplicationSearchResults.aspx?Field=S&Period=L14&r=WW.P1.WEBGUEST&f=%24P1.ETR.SEARCH.SL14"
 info_url_base = "#{base_url}/eTrackApplicationDetails.aspx?r=WW.P1.WEBGUEST&f=$P1.ETR.APPDET.VIW&ApplicationId="
 
